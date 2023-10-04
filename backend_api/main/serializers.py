@@ -105,7 +105,7 @@ class ProductRatingSerializer(serializers.ModelSerializer):
         super(ProductRatingSerializer, self).__init__(*args, **kwargs)
         #self.Meta.depth = 1
 
-#Vendors
+#Product Category
 class CategorySerializer(serializers.ModelSerializer):
     class Meta:
         model = models.ProductCategory
